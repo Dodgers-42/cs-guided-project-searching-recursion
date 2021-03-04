@@ -37,5 +37,21 @@ list I came up was absolutely huge, so make sure your solution is efficient.
 complexity.*
 """
 def find_rotation_point(surnames):
+    # create a floor_index at zero
+    # create a ceiling_index at length - 1
+    # keep track of first_name in our window
+    # first_name = surnames[floor_index]
+
+    #while Flor_index < ceiling _index:
+        # guess in the middle of floor and ceiling 
+        # guess + ceiling + floor // 2 (get the middle index)
+        # if the word at guess_index is larger than first_name
+            # shrink our floor down to the guess_index
+        # else
+            # shrink our ceiling down to the guess_index
+
+        # if we reach a point, where theres only two items left between 
+        # ceiling and floor, return the item at the ceiling 
+        # that item will always be alphabetically smaller
     # Your code here
 
